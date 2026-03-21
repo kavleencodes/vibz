@@ -1,0 +1,19 @@
+# Env file (IMPORTANT)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Node modules (frontend)
+node_modules/
+
+# Build files
+dist/
+build/
+
+# OS junk
+.DS_Store
