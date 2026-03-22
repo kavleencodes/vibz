@@ -1,22 +1,37 @@
 /* Full page */
 .dashboard {
-  background-color: #0f172a;
+  background-color: black;
   min-height: 100vh;
   color: white;
 }
 
-/* Navbar */
+/* 🔥 Navbar full width */
 .navbar {
   display: flex;
   align-items: center;
-  padding: 15px 30px;
-  gap: 20px;
+  justify-content: space-between; /* spreads content */
+  padding: 10px 20px;
+  background-color: black; /* darker top bar */
+}
+
+/* Left section */
+.nav-left {
+  display: flex;
+  align-items: center;
 }
 
 /* Logo */
 .nav-logo {
-  width: 120px;
+  width: 300px;
   height: auto;
+}
+
+/* Center section */
+.nav-center {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Search box */
@@ -25,7 +40,7 @@
   border-radius: 20px;
   border: none;
   outline: none;
-  width: 250px;
+  width: 300px;
   background: #1e293b;
   color: white;
 }
@@ -33,5 +48,5 @@
 /* Content */
 .dashboard-content {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 60px;
 }
