@@ -1,11 +1,19 @@
 /* Container */
 .auth-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   
 }
-
+.app-container {
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: flex-start;   /* stick to top */
+  
+  padding-top: 10px;         /* adjust as needed */
+  
+}
 /* Form card */
 .auth-form {
   display: flex;

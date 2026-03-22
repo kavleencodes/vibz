@@ -1,0 +1,37 @@
+/* Full page */
+.dashboard {
+  background-color: #0f172a;
+  min-height: 100vh;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  gap: 20px;
+}
+
+/* Logo */
+.nav-logo {
+  width: 120px;
+  height: auto;
+}
+
+/* Search box */
+.search-input {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 250px;
+  background: #1e293b;
+  color: white;
+}
+
+/* Content */
+.dashboard-content {
+  text-align: center;
+  margin-top: 50px;
+}

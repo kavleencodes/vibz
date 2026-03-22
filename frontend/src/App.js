@@ -8,12 +8,12 @@ function App() {
       <div>
         
         {/* Logo */}
-        <div className="app-container">
-          <img src="/logo_vibz-no-bg.png" className="logo" alt="Vibz Logo" />
-        </div>
+        
 
         {/* 🔥 Replace Register with AppRoutes */}
         <AppRoutes />
+
+        {/* <h1 style={{color: "white"}}>TEST</h1> */}
 
       </div>
     </Router>
