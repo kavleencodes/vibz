@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: black; /* clean background */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center;   /* center horizontally */
+  align-items: flex-start;   /* stick to top */
+  
+  padding-top: 10px;         /* adjust as needed */
+  
 }
 
-.App-link {
-  color: #61dafb;
+/* Logo */
+.logo {
+  width: 600px;
+  height: auto;
+
+  animation: beat 1.2s infinite ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Keyframes for heartbeat effect */
+@keyframes beat {
+  0% {
+    transform: scale(1);
   }
-  to {
-    transform: rotate(360deg);
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  75% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
   }
 }

@@ -1,0 +1,66 @@
+1. 🎨 Color System
+Primary Palette
+Periwinkle (Background) → #B9BDE3
+Soft Lavender → #AFA8E8
+Mid Periwinkle → #8F8AD8
+Secondary Palette
+Lavender Grey → #7C7FA3
+Muted Indigo → #6F6AA8
+Neutral / Base
+Charcoal → #4B4F63
+Deep Charcoal → #3E4152
+Gradient (Signature Style)
+
+Use this across UI, logo, and accents:
+
+Linear Gradient (left → right):
+#AFA8E8 → #8F8AD8 → #6F6AA8 → #4B4F63
+
+💡 This gradient represents emotional transition, which aligns perfectly with your AI concept.
+
+2. 🔤 Typography
+Primary Font
+
+Poppins SemiBold
+
+Use for: Logo, headings, key UI elements
+Style: Clean, geometric, slightly rounded
+Tracking: Slightly increased for a modern feel
+Secondary Font
+
+Inter Regular / Medium
+
+Use for: Body text, dashboards, descriptions
+Highly readable and pairs well with Poppins
+3. 🧩 Logo Usage Rules
+✅ Do:
+Keep plenty of spacing around the logo
+Use the gradient version on light backgrounds
+Use solid charcoal (#4B4F63) for monochrome cases
+Maintain consistent proportions
+❌ Don’t:
+Don’t stretch or distort the logo
+Don’t place on busy or clashing backgrounds
+Don’t change the gradient colors randomly
+Don’t apply heavy shadows or effects
+4. 📱 UI Style Direction
+Visual Language
+Soft, ambient, emotional
+Minimal but expressive
+Subtle motion (for real-time emotion shifts)
+Elements
+Rounded corners (8–16px radius)
+Soft glow effects using lavender tones
+Gradient overlays for active states
+5. 🎯 Brand Personality
+Emotional (core differentiator)
+Intelligent (AI-driven)
+Calm & Fluid (not aggressive tech)
+Modern & Youthful
+6. 🧠 Product Alignment
+
+Your branding strongly communicates:
+
+Real-time adaptability (via gradients + flow)
+Human + AI fusion (face + waveform concept)
+Music + emotion connection

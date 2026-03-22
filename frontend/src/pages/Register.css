@@ -1,0 +1,69 @@
+/* Full screen center */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* Form card */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px;
+  width: 320px;
+  background: #3E4152; /* dark card */
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(213, 7, 7, 0.3);
+}
+
+/* Title */
+.auth-title {
+  text-align: center;
+  color: #7e76e3 ;
+  margin-bottom: 5px;
+}
+
+/* Inputs */
+.auth-form input {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Button */
+.auth-form button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #6F6AA8; /* blue accent */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-form button:hover {
+  background: #7e76e3;
+}
+
+.auth-switch {
+  text-align: center;
+  margin-top: 10px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.login-link {
+  text-align: center;
+  color: #8F8AD8; /* your vibz palette */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
