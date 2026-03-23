@@ -3,6 +3,7 @@ from app.db.database import engine,Base
 from fastapi.middleware.cors import CORSMiddleware
 from app.models import user
 from app.api import auth
+from app.api.recommend import router as recommend_router
 
 app= FastAPI()
 
@@ -21,3 +22,4 @@ def home():
     return {"message":"vibzzz running! lets go..."}
 
 app.include_router(auth.router)
+app.include_router(recommend_router)
