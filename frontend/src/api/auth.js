@@ -20,3 +20,14 @@ export const loginUser = async (email, password) => {
     );
     return res.json();
   };
+
+export const getPlaylist=async(text)=>{
+  const res=await fetch(
+    `${BASE_URL}/recommend?text=${text}`,
+    {
+      method:"POST",
+    }
+
+  );
+  return res.json();
+}
