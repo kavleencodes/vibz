@@ -16,4 +16,4 @@ dist/
 build/
 
 # OS junk
-.DS_Store
+.DS_Storebackend/data/song_embeddings.npy

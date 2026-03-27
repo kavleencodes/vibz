@@ -1,72 +1,136 @@
-/* Container */
-.auth-container {
+/* 🌑 OVERALL PAGE */
+.auth-page {
+  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  background: #0f172a; /* Deep slate black */
+  position: relative;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
 }
-.app-container {
-  display: flex;
-  justify-content: center;   /* center horizontally */
-  align-items: flex-start;   /* stick to top */
-  
-  padding-top: 10px;         /* adjust as needed */
-  
+
+/* 🎨 BACKGROUND GLOW */
+.bg-glow {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(152, 147, 218, 0.15) 0%, transparent 70%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: blur(60px);
+  z-index: 0;
 }
-/* Form card */
-.auth-form {
+
+/* 💎 THE CARD WRAPPER */
+.login-card-container {
+  z-index: 1;
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  padding: 30px;
-  width: 320px;
-  background: #1e293b;
-  border-radius: 16px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  align-items: center;
 }
 
-/* Title */
-.auth-title {
+.logo-wrapper {
+  margin-bottom: 25px;
+}
+
+.logo {
+  width: 150px;
+  filter: drop-shadow(0 0 8px rgba(187, 189, 246, 0.3));
+}
+
+/* ✨ GLASSMORPHISM FORM */
+.auth-form.glass {
+  background: rgba(30, 41, 59, 0.6); /* Your #1e293b with transparency */
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 45px 35px;
+  width: 340px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.form-header {
   text-align: center;
-  color: white;
+  margin-bottom: 30px;
 }
 
-/* Inputs */
+.auth-title {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.auth-subtitle {
+  color: #94a3b8;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+/* ✍️ INPUT STYLING */
+.input-field {
+  margin-bottom: 18px;
+}
+
 .auth-form input {
-  padding: 12px;
-  border-radius: 8px;
-  border: none;
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(15, 23, 42, 0.4);
+  color: #fff;
+  font-size: 15px;
   outline: none;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
 }
 
-/* Button */
-.auth-form button {
-  padding: 12px;
-  background: #9893da; /* vibz color */
+.auth-form input:focus {
+  border-color: #9893da;
+  background: rgba(30, 41, 59, 0.8);
+  box-shadow: 0 0 15px rgba(152, 147, 218, 0.2);
+}
+
+/* 🚀 BUTTON STYLING */
+.login-btn {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(135deg, #9893da, #7c78c9);
   color: white;
   border: none;
-  border-radius: 8px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 16px;
   cursor: pointer;
+  margin-top: 10px;
   transition: 0.3s;
 }
 
-.auth-form button:hover {
-  background: #7c78c9;
+.login-btn:hover {
+  filter: brightness(1.1);
+  transform: translateY(-2px);
 }
 
-/* Switch text */
+/* 🔗 FOOTER LINKS */
 .auth-switch {
   text-align: center;
+  margin-top: 25px;
+  color: #94a3b8;
   font-size: 14px;
-  color: #aaa;
 }
 
-.auth-switch a {
+.reg-link {
   color: #bbbdf6;
   text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s;
+  border-bottom: 1px solid transparent;
 }
 
-.auth-switch a:hover {
-  text-decoration: underline;
+.reg-link:hover {
+  color: #fff;
+  border-bottom: 1px solid #bbbdf6;
 }
