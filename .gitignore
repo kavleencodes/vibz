@@ -1,19 +1,8 @@
-# Env file (IMPORTANT)
-.env
-
-# Python cache
-__pycache__/
-*.pyc
-
-# Virtual environment
+**/song_embeddings.npy
+**/processed_songs.csv
+backend/data/*.csv
+backend/data/*.npy
+backend/venv/
 venv/
-
-# Node modules (frontend)
-node_modules/
-
-# Build files
-dist/
-build/
-
-# OS junk
-.DS_Storebackend/data/song_embeddings.npy
+backend/data/*.csv
+backend/data/*.npy

@@ -1,1 +1,2 @@
 backend/data/song_embeddings.npy
+backend/data/processed_songs.csv
