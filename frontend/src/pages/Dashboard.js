@@ -24,13 +24,16 @@ export default function Dashboard() {
   return (
     <div className="dashboard-dark">
       {/* Sleek Top Bar */}
-      <header className="top-nav">
-        <img src="/logo_vibz-no-bg.png" className="nav-logo" alt="Vibz" />
-        <div className="user-profile">
-          <span>Welcome, <strong>Kavleen</strong></span>
-          <div className="avatar">K</div>
-        </div>
-      </header>
+     <header className="top-nav">
+  <div className="nav-left">
+    <img src="/logo_vibz-no-bg.png" className="nav-logo" alt="Vibz" />
+  </div>
+
+  <div className="user-profile">
+    <span>Welcome, <strong>Kavleen</strong></span>
+    <div className="avatar">K</div>
+  </div>
+</header>
 
       <main className="main-container">
         <motion.div 
